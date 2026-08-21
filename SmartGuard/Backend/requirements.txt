@@ -1,0 +1,40 @@
+# ============================================
+# Smart Guard Backend - Python Dependencies
+# ============================================
+# Install with: pip install -r requirements.txt
+# Python version: 3.9+
+
+# Core Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+pydantic>=2.5.0
+python-dotenv>=1.0.0
+
+# Data Processing
+pandas>=2.1.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+
+# Computer Vision & ML
+opencv-python>=4.8.0
+tensorflow>=2.15.0
+keras>=2.15.0
+
+# Authentication & Security
+passlib>=1.7.4
+bcrypt>=4.1.0
+PyJWT>=2.8.0
+
+# HTTP & Async
+httpx>=0.25.0
+requests>=2.31.0
+aiofiles>=23.2.0
+
+# External Services
+twilio>=8.11.0
+redis>=5.0.0
+supabase>=2.3.0
+
+# Database (optional - for future PostgreSQL use)
+# psycopg2-binary>=2.9.0

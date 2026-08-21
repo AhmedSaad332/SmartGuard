@@ -1,0 +1,40 @@
+{
+  "name": "smart-guard-monorepo",
+  "version": "1.0.0",
+  "description": "Smart Guard - AI-powered abnormal behavior detection system",
+  "private": true,
+  "workspaces": [
+    "SmartGuard/Frontend"
+  ],
+  "scripts": {
+    "install:frontend": "cd SmartGuard/Frontend && npm install",
+    "install:backend": "cd SmartGuard/Backend && pip install -r requirements.txt",
+    "install:all": "npm run install:frontend && npm run install:backend",
+    "dev:frontend": "cd SmartGuard/Frontend && npm run dev",
+    "dev:backend": "cd SmartGuard/Backend && python start_backend.py",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "build:frontend": "cd SmartGuard/Frontend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "python": ">=3.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "ai",
+    "computer-vision",
+    "security",
+    "surveillance",
+    "fastapi",
+    "react",
+    "tensorflow"
+  ],
+  "author": "Smart Guard Team",
+  "license": "MIT"
+}

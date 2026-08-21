@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+venv/
+.env
+.venv/
+lastenv/
+
+# Virtual environments
+venv/
+ENV/
+.env/
+
+# Logs
+logs/
+*.log
+
+# VSCode
+.vscode/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Build
+dist/
+build/
+
+# macOS
+.DS_Store
+
+# Others
+*.sqlite3
+*.db
+
+# Local settings
+settings.pyc
+
+# Coverage
+htmlcov/
+.coverage
+
+# Frontend build
+dist/
+
+# Git
+*.patch
+
